@@ -1,0 +1,50 @@
+.usedRange {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  & p {
+    width: 100%;
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #8d99ae;
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      background: rgba(73, 103, 141, 0.2);
+    }
+  }
+  &__btns {
+    width: 50vw;
+    min-width: 320px;
+    max-width: 500px;
+    padding: 10px 15px;
+    border: 1px solid #8d99ae;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    z-index: 1;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background: #fffafa;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50px);
+    transition: 0.4s;
+    &.open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+}
+
+.active {
+  background: rgba(73, 103, 141, 0.2);
+}

@@ -1,0 +1,14 @@
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: 0;
+  background: transparent;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+  }
+}

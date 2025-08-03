@@ -1,0 +1,43 @@
+.page {
+  width: 75%;
+  min-width: 375px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.info {
+  margin: 50px 0;
+}
+
+.infoTable {
+  &__header {
+    align-items: center;
+    &:not(:last-of-type) {
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  & > div {
+    display: flex;
+    &:not(:last-of-type) {
+      border-bottom: 1px solid #8d99ae;
+    }
+  }
+  & p {
+    height: auto;
+    flex: 1;
+    padding: 10px 20px;
+    &:not(:last-of-type) {
+      border-right: 1px solid #8d99ae;
+    }
+  }
+}
+
+.superDatePicker-margin {
+  margin: 50px 0;
+}

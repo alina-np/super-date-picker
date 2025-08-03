@@ -1,0 +1,28 @@
+.dateRangePicker {
+  position: relative;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  &__data {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+}
+
+.error {
+  position: absolute;
+  top: 45px;
+  padding: 0 5px 5px;
+  border-bottom: 2px solid red;
+  font-size: 14px;
+}
+
+.clear {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

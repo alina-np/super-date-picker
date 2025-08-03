@@ -1,0 +1,11 @@
+.superDatePicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #8d99ae;
+  &-auto {
+    display: inline-flex;
+    min-width: 320px;
+  }
+}
